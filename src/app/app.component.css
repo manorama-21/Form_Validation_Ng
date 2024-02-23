@@ -1,0 +1,41 @@
+form
+{
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+
+}
+input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+button
+{
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 10px;
+  color:black;
+  cursor: pointer;
+
+}
+button:disabled{
+background-color: burlywood;
+color: black;
+cursor: not-allowed;
+}
+span{
+  color:black;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.container{
+
+  position: relative;
+  left:500px;
+}
